@@ -8,8 +8,8 @@ print(student_scores)
 #Write your code below this row 👇
 maxscore = 0
 for score in student_scores:
-    if score > 0:
-        maxscore = student_scores
-x = maxscore 
+    if score > maxscore:
+      maxscore = score
+
 
 print("The highest score in the class is:", maxscore)
